@@ -8,7 +8,7 @@ class TestController {
 
     private handleMobile(model, modelAndView) {
 
-        if (modelAndView && mobileService.detect(request)) {
+        if (modelAndView && mobileService.detect(request)) {  // use mobileAndView to change the view for mobile
 
             modelAndView.viewName = '/mobile/' + modelAndView.viewName
 
