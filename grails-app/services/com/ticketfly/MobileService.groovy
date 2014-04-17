@@ -18,7 +18,7 @@ class MobileService {
 
             } else if (userAgent?.contains('Android') && !userAgent?.contains('Mobile')) {
 
-                // and android tables
+                // and android tablets
 
                 detected = false
 
